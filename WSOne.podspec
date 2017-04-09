@@ -24,10 +24,10 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = "WSOne/**/*.h"
 
-  s.framework  = "UIKit", "Foundation"
+  s.framework  = "UIKit", "Foundation", "XCTest"
 
 
-  s.dependency "JSONKit", "~> 1.4"
+  # s.dependency "JSONKit", "~> 1.4"
   s.user_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PLATFORM_DIR)/Developer/Library/Frameworks' }
 
 end
