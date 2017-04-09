@@ -307,6 +307,7 @@
 				54DA00131E9A34E6006CE065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54DAFFF51E9A34E6006CE065 /* Build configuration list for PBXProject "WSOne" */ = {
 			isa = XCConfigurationList;
