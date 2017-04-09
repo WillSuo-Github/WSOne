@@ -28,5 +28,6 @@ Pod::Spec.new do |s|
 
 
   # s.dependency "JSONKit", "~> 1.4"
+  s.user_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PLATFORM_DIR)/Developer/Library/Frameworks' }
 
 end
