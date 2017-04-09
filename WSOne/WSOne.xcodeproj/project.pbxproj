@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CAABCC6CE7EBC6DCD253F4F /* libPods-WSOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA40D6813137492926AB1090 /* libPods-WSOne.a */; };
 		54DA00531E9A6E16006CE065 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DA00521E9A6E16006CE065 /* main.m */; };
 		54DA00561E9A6E16006CE065 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DA00551E9A6E16006CE065 /* AppDelegate.m */; };
 		54DA00591E9A6E16006CE065 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DA00581E9A6E16006CE065 /* ViewController.m */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A9206179F1E861DEAC64698 /* Pods-WSOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSOne.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WSOne/Pods-WSOne.debug.xcconfig"; sourceTree = "<group>"; };
 		54DA004E1E9A6E16006CE065 /* WSOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54DA00521E9A6E16006CE065 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		54DA00541E9A6E16006CE065 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,6 +59,8 @@
 		54DA00871E9A7CFF006CE065 /* Target_One.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_One.m; sourceTree = "<group>"; };
 		54DA00891E9A7D5B006CE065 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
 		54DA008A1E9A7D5B006CE065 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		5732DBEB187CC073CD36A391 /* Pods-WSOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSOne.release.xcconfig"; path = "Pods/Target Support Files/Pods-WSOne/Pods-WSOne.release.xcconfig"; sourceTree = "<group>"; };
+		FA40D6813137492926AB1090 /* libPods-WSOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WSOne.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CAABCC6CE7EBC6DCD253F4F /* libPods-WSOne.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +96,8 @@
 				54DA006A1E9A6E16006CE065 /* WSOneTests */,
 				54DA00751E9A6E16006CE065 /* WSOneUITests */,
 				54DA004F1E9A6E16006CE065 /* Products */,
+				B743EAAB586999EAD46F7CA0 /* Pods */,
+				74AFED6B927657CD2E4D2966 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,6 +173,23 @@
 			path = Target;
 			sourceTree = "<group>";
 		};
+		74AFED6B927657CD2E4D2966 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA40D6813137492926AB1090 /* libPods-WSOne.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B743EAAB586999EAD46F7CA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A9206179F1E861DEAC64698 /* Pods-WSOne.debug.xcconfig */,
+				5732DBEB187CC073CD36A391 /* Pods-WSOne.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54DA007B1E9A6E16006CE065 /* Build configuration list for PBXNativeTarget "WSOne" */;
 			buildPhases = (
+				404EAD03EF51DE379F2DB081 /* [CP] Check Pods Manifest.lock */,
 				54DA004A1E9A6E16006CE065 /* Sources */,
 				54DA004B1E9A6E16006CE065 /* Frameworks */,
 				54DA004C1E9A6E16006CE065 /* Resources */,
+				C043D5883AF3343028AF2544 /* [CP] Embed Pods Frameworks */,
+				17E7BAC09391E24B83061E0F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -294,6 +321,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17E7BAC09391E24B83061E0F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WSOne/Pods-WSOne-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		404EAD03EF51DE379F2DB081 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C043D5883AF3343028AF2544 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WSOne/Pods-WSOne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		54DA004A1E9A6E16006CE065 /* Sources */ = {
@@ -453,6 +528,7 @@
 		};
 		54DA007C1E9A6E16006CE065 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A9206179F1E861DEAC64698 /* Pods-WSOne.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NT9VR9C9HY;
@@ -466,6 +542,7 @@
 		};
 		54DA007D1E9A6E16006CE065 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5732DBEB187CC073CD36A391 /* Pods-WSOne.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NT9VR9C9HY;
