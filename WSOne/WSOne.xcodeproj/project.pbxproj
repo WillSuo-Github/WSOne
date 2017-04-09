@@ -15,6 +15,8 @@
 		54DA00611E9A6E16006CE065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54DA005F1E9A6E16006CE065 /* LaunchScreen.storyboard */; };
 		54DA006C1E9A6E16006CE065 /* WSOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DA006B1E9A6E16006CE065 /* WSOneTests.m */; };
 		54DA00771E9A6E16006CE065 /* WSOneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DA00761E9A6E16006CE065 /* WSOneUITests.m */; };
+		54DA00881E9A7CFF006CE065 /* Target_One.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DA00871E9A7CFF006CE065 /* Target_One.m */; };
+		54DA008B1E9A7D5B006CE065 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DA008A1E9A7D5B006CE065 /* OneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		54DA00721E9A6E16006CE065 /* WSOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54DA00761E9A6E16006CE065 /* WSOneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSOneUITests.m; sourceTree = "<group>"; };
 		54DA00781E9A6E16006CE065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54DA00861E9A7CFF006CE065 /* Target_One.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_One.h; sourceTree = "<group>"; };
+		54DA00871E9A7CFF006CE065 /* Target_One.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_One.m; sourceTree = "<group>"; };
+		54DA00891E9A7D5B006CE065 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		54DA008A1E9A7D5B006CE065 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		54DA00501E9A6E16006CE065 /* WSOne */ = {
 			isa = PBXGroup;
 			children = (
+				54DA00841E9A776B006CE065 /* WSOne */,
 				54DA00541E9A6E16006CE065 /* AppDelegate.h */,
 				54DA00551E9A6E16006CE065 /* AppDelegate.m */,
 				54DA00571E9A6E16006CE065 /* ViewController.h */,
@@ -138,6 +145,25 @@
 				54DA00781E9A6E16006CE065 /* Info.plist */,
 			);
 			path = WSOneUITests;
+			sourceTree = "<group>";
+		};
+		54DA00841E9A776B006CE065 /* WSOne */ = {
+			isa = PBXGroup;
+			children = (
+				54DA00851E9A7CEE006CE065 /* Target */,
+				54DA00891E9A7D5B006CE065 /* OneViewController.h */,
+				54DA008A1E9A7D5B006CE065 /* OneViewController.m */,
+			);
+			path = WSOne;
+			sourceTree = "<group>";
+		};
+		54DA00851E9A7CEE006CE065 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				54DA00861E9A7CFF006CE065 /* Target_One.h */,
+				54DA00871E9A7CFF006CE065 /* Target_One.m */,
+			);
+			path = Target;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,8 +301,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				54DA00591E9A6E16006CE065 /* ViewController.m in Sources */,
+				54DA008B1E9A7D5B006CE065 /* OneViewController.m in Sources */,
 				54DA00561E9A6E16006CE065 /* AppDelegate.m in Sources */,
 				54DA00531E9A6E16006CE065 /* main.m in Sources */,
+				54DA00881E9A7CFF006CE065 /* Target_One.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
