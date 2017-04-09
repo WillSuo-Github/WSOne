@@ -3,8 +3,9 @@ Pod::Spec.new do |s|
 
   s.name         = "WSOne"
   s.version      = "1"
-  s.summary      = "A short description of WSOne."
+  s.summary      = "WSOne"
   s.description  = <<-DESC
+			测试用的，不要在意
                    DESC
   s.homepage     = "https://github.com/greatLock/WSOne"
 
