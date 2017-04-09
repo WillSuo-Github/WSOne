@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "54DA001C1E9A4DBC006CE065"
+               BlueprintIdentifier = "54DA004D1E9A6E16006CE065"
                BuildableName = "WSOne.app"
                BlueprintName = "WSOne"
                ReferencedContainer = "container:WSOne.xcodeproj">
@@ -32,7 +32,17 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "54DA00351E9A4DBC006CE065"
+               BlueprintIdentifier = "54DA00661E9A6E16006CE065"
+               BuildableName = "WSOneTests.xctest"
+               BlueprintName = "WSOneTests"
+               ReferencedContainer = "container:WSOne.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "54DA00711E9A6E16006CE065"
                BuildableName = "WSOneUITests.xctest"
                BlueprintName = "WSOneUITests"
                ReferencedContainer = "container:WSOne.xcodeproj">
@@ -42,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "54DA001C1E9A4DBC006CE065"
+            BlueprintIdentifier = "54DA004D1E9A6E16006CE065"
             BuildableName = "WSOne.app"
             BlueprintName = "WSOne"
             ReferencedContainer = "container:WSOne.xcodeproj">
@@ -65,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "54DA001C1E9A4DBC006CE065"
+            BlueprintIdentifier = "54DA004D1E9A6E16006CE065"
             BuildableName = "WSOne.app"
             BlueprintName = "WSOne"
             ReferencedContainer = "container:WSOne.xcodeproj">
@@ -84,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "54DA001C1E9A4DBC006CE065"
+            BlueprintIdentifier = "54DA004D1E9A6E16006CE065"
             BuildableName = "WSOne.app"
             BlueprintName = "WSOne"
             ReferencedContainer = "container:WSOne.xcodeproj">
