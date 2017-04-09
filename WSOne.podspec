@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = "WSOne/**/*.h"
 
-  # s.framework  = "UIKit", "Foundation"
+  s.framework  = "UIKit", "Foundation"
 
 
   # s.dependency "JSONKit", "~> 1.4"
