@@ -13,18 +13,7 @@
 		54DAFFD71E9A2A80006CE065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54DAFFD51E9A2A80006CE065 /* Main.storyboard */; };
 		54DAFFD91E9A2A80006CE065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54DAFFD81E9A2A80006CE065 /* Assets.xcassets */; };
 		54DAFFDC1E9A2A80006CE065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54DAFFDA1E9A2A80006CE065 /* LaunchScreen.storyboard */; };
-		54DAFFE71E9A2A80006CE065 /* WSOneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DAFFE61E9A2A80006CE065 /* WSOneUITests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		54DAFFE31E9A2A80006CE065 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 54DAFFC11E9A2A80006CE065 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 54DAFFC81E9A2A80006CE065;
-			remoteInfo = WSOne;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		54DAFFC91E9A2A80006CE065 /* WSOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,20 +26,10 @@
 		54DAFFD81E9A2A80006CE065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54DAFFDB1E9A2A80006CE065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54DAFFDD1E9A2A80006CE065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54DAFFE21E9A2A80006CE065 /* WSOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		54DAFFE61E9A2A80006CE065 /* WSOneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSOneUITests.m; sourceTree = "<group>"; };
-		54DAFFE81E9A2A80006CE065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		54DAFFC61E9A2A80006CE065 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		54DAFFDF1E9A2A80006CE065 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				54DAFFCB1E9A2A80006CE065 /* WSOne */,
-				54DAFFE51E9A2A80006CE065 /* WSOneUITests */,
 				54DAFFCA1E9A2A80006CE065 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				54DAFFC91E9A2A80006CE065 /* WSOne.app */,
-				54DAFFE21E9A2A80006CE065 /* WSOneUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,15 +79,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		54DAFFE51E9A2A80006CE065 /* WSOneUITests */ = {
-			isa = PBXGroup;
-			children = (
-				54DAFFE61E9A2A80006CE065 /* WSOneUITests.m */,
-				54DAFFE81E9A2A80006CE065 /* Info.plist */,
-			);
-			path = WSOneUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,24 +99,6 @@
 			productReference = 54DAFFC91E9A2A80006CE065 /* WSOne.app */;
 			productType = "com.apple.product-type.application";
 		};
-		54DAFFE11E9A2A80006CE065 /* WSOneUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 54DAFFEE1E9A2A80006CE065 /* Build configuration list for PBXNativeTarget "WSOneUITests" */;
-			buildPhases = (
-				54DAFFDE1E9A2A80006CE065 /* Sources */,
-				54DAFFDF1E9A2A80006CE065 /* Frameworks */,
-				54DAFFE01E9A2A80006CE065 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				54DAFFE41E9A2A80006CE065 /* PBXTargetDependency */,
-			);
-			name = WSOneUITests;
-			productName = WSOneUITests;
-			productReference = 54DAFFE21E9A2A80006CE065 /* WSOneUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,11 +111,6 @@
 					54DAFFC81E9A2A80006CE065 = {
 						CreatedOnToolsVersion = 8.3;
 						ProvisioningStyle = Automatic;
-					};
-					54DAFFE11E9A2A80006CE065 = {
-						CreatedOnToolsVersion = 8.3;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 54DAFFC81E9A2A80006CE065;
 					};
 				};
 			};
@@ -183,7 +128,6 @@
 			projectRoot = "";
 			targets = (
 				54DAFFC81E9A2A80006CE065 /* WSOne */,
-				54DAFFE11E9A2A80006CE065 /* WSOneUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -196,13 +140,6 @@
 				54DAFFDC1E9A2A80006CE065 /* LaunchScreen.storyboard in Resources */,
 				54DAFFD91E9A2A80006CE065 /* Assets.xcassets in Resources */,
 				54DAFFD71E9A2A80006CE065 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		54DAFFE01E9A2A80006CE065 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,23 +156,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54DAFFDE1E9A2A80006CE065 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				54DAFFE71E9A2A80006CE065 /* WSOneUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		54DAFFE41E9A2A80006CE065 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 54DAFFC81E9A2A80006CE065 /* WSOne */;
-			targetProxy = 54DAFFE31E9A2A80006CE065 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		54DAFFD51E9A2A80006CE065 /* Main.storyboard */ = {
@@ -371,28 +292,6 @@
 			};
 			name = Release;
 		};
-		54DAFFEF1E9A2A80006CE065 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = WSOneUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = WS.WSOneUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = WSOne;
-			};
-			name = Debug;
-		};
-		54DAFFF01E9A2A80006CE065 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = WSOneUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = WS.WSOneUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = WSOne;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -412,14 +311,7 @@
 				54DAFFED1E9A2A80006CE065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		54DAFFEE1E9A2A80006CE065 /* Build configuration list for PBXNativeTarget "WSOneUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				54DAFFEF1E9A2A80006CE065 /* Debug */,
-				54DAFFF01E9A2A80006CE065 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

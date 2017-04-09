@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/greatLock/WSOne.git", :tag => "1"}
+  s.source       = { :git => "https://github.com/greatLock/WSOne.git", :tag => s.version}
 
 
   s.source_files  = "WSOne", "WSOne/**/*.{h,m}"
