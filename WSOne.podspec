@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "WSOne"
-  s.version      = "3"
+  s.version      = "4"
   s.summary      = "WSOne"
   s.description  = <<-DESC
 			测试用的，不要在意
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = "WSOne/**/*.h"
 
-  s.framework  = "UIKit", "Foundation", "XCTest"
+  s.framework  = "UIKit", "Foundation"
 
 
   # s.dependency "JSONKit", "~> 1.4"
