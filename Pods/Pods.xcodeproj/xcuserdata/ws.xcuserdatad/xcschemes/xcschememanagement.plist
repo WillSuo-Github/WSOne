@@ -14,15 +14,25 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>WSTwo_Category.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>58D3568D87BF948701592760F5E91F30</key>
+		<key>B8BB0DC316E8B0FB1566E55910A33222</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>E860DBFDF4A7872F6049CBAEAA721AD9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ED81EF5300DCD01A273E873E23407FB9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

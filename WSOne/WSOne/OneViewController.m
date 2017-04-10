@@ -7,6 +7,7 @@
 //
 
 #import "OneViewController.h"
+#import <CTMediator+Bussiness_Two.h>
 
 @interface OneViewController ()
 
@@ -33,7 +34,8 @@
 #pragma mark -
 #pragma mark - event response
 - (void)didTappedMyButton{
-
+    UIViewController *viewController = [[CTMediator sharedInstance] Two_viewControllerWithText:@"hello world"];
+    [self.navigationController pushViewController:viewController animated:true];
 }
 
 #pragma mark -

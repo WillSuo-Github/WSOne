@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.framework  = "UIKit", "Foundation"
 
 
-  # s.dependency "WSTwo_Category", :git => 'https://github.com/greatLock/WSTwo_Category.git'
+  s.dependency "WSTwo_Category"
   s.user_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PLATFORM_DIR)/Developer/Library/Frameworks' }
 
 end
