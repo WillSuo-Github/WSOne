@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "WSOne"
-  s.version      = "8"
+  s.version      = "9"
   s.summary      = "WSOne"
   s.description  = <<-DESC
 			测试用的，不要在意
@@ -28,6 +28,6 @@ Pod::Spec.new do |s|
 
 
   s.dependency "WSTwo_Category"
-  s.user_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PLATFORM_DIR)/Developer/Library/Frameworks' }
+  # s.user_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PLATFORM_DIR)/Developer/Library/Frameworks' }
 
 end
