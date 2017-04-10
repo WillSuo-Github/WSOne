@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.framework  = "UIKit", "Foundation"
 
 
-  # s.dependency "JSONKit", "~> 1.4"
+  s.dependency "WSTwo_Category"
   s.user_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PLATFORM_DIR)/Developer/Library/Frameworks' }
 
 end
