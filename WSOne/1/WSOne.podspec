@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/greatLock/WSOne.git", :tag => s.version}
 
 
-  s.source_files  = "WSOne", "WSOne/**/*.{h,m}", "WSOneUITests/*.{h,m}"
+  s.source_files  = "WSOne", "WSOne/WSOne/**/*.{h,m}", "WSOneUITests/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "WSOne/**/*.h"
