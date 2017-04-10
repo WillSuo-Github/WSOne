@@ -1,0 +1,28 @@
+{
+  "name": "WSTwo_Category",
+  "version": "2",
+  "summary": "WSTwo_Category.",
+  "description": "this is WSTwo_Category.",
+  "homepage": "https://github.com/greatLock/WSTwo_Category",
+  "license": "MIT",
+  "authors": {
+    "WS": "a739002611@outlook.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/greatLock/WSTwo_Category.git",
+    "tag": "2"
+  },
+  "source_files": "WSTwo_Category/WSTwo_Category/**/*.{h,m}",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
+}

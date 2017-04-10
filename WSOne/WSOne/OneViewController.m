@@ -7,21 +7,48 @@
 //
 
 #import "OneViewController.h"
+//#import <CTMediator.h>
+#import <CTMediator+Bussiness_Two.h>
 
 @interface OneViewController ()
 
+@property (nonatomic, strong) UIButton *myButton;
 @end
 
 @implementation OneViewController
 
+
+#pragma mark -
+#pragma mark - life cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self.view addSubview:self.myButton];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewWillLayoutSubviews{
+    [super viewWillLayoutSubviews];
+    
+    self.myButton.frame = CGRectMake(100, 100, 200, 44);
+}
+
+#pragma mark -
+#pragma mark - event response
+- (void)didTappedMyButton{
+    UIViewController *viewController = [[CTMediator sharedInstance] Two_viewControllerWithText:@"hello world"];
+    [self.navigationController pushViewController:viewController animated:true];
+}
+
+#pragma mark -
+#pragma mark - lazy
+- (UIButton *)myButton{
+    if (_myButton == nil) {
+        _myButton = [[UIButton alloc] init];
+        [_myButton addTarget:self action:@selector(didTappedMyButton) forControlEvents:UIControlEventTouchUpInside];
+        [_myButton setTitle:@"push to twoVc" forState:UIControlStateNormal];
+        _myButton.backgroundColor = [UIColor redColor];
+    }
+    return _myButton;
 }
 
 /*

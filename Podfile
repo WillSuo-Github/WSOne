@@ -6,5 +6,6 @@ target 'WSOne' do
   # use_frameworks!
 
   pod "CTMediator"
+  pod "WSTwo_Category", :git => "https://github.com/greatLock/WSTwo_Category.git"
 
 end
