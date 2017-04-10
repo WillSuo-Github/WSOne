@@ -1,25 +1,12 @@
 PODS:
   - CTMediator (0.0.3)
-  - WSTwo_Category (2):
-    - CTMediator
 
 DEPENDENCIES:
   - CTMediator
-  - WSTwo_Category (from `https://github.com/greatLock/WSTwo_Category.git`)
-
-EXTERNAL SOURCES:
-  WSTwo_Category:
-    :git: https://github.com/greatLock/WSTwo_Category.git
-
-CHECKOUT OPTIONS:
-  WSTwo_Category:
-    :commit: 689cfd4570597bbf153bf8b6e4098918d220d8d8
-    :git: https://github.com/greatLock/WSTwo_Category.git
 
 SPEC CHECKSUMS:
   CTMediator: c9a1203561e2232cb9a72822659159a02ae3cf20
-  WSTwo_Category: 56d4bcf2944369b179e72492d6166d7bc21ee287
 
-PODFILE CHECKSUM: 9fdf62f2bf1c38239e4821f74ca4019db7a8e3b5
+PODFILE CHECKSUM: 30cbd6ad6baf053eaaf1911de9e43b0ef1533367
 
 COCOAPODS: 1.2.0
