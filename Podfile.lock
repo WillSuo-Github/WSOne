@@ -1,6 +1,6 @@
 PODS:
   - CTMediator (0.0.3)
-  - WSTwo_Category (2):
+  - WSTwo_Category (3):
     - CTMediator
 
 DEPENDENCIES:
@@ -9,7 +9,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   CTMediator: c9a1203561e2232cb9a72822659159a02ae3cf20
-  WSTwo_Category: 63e7b970b8393a4a41777704f04646e7dacea720
+  WSTwo_Category: a44c23a21314bdbc1b866ba86c7f368fc4d607db
 
 PODFILE CHECKSUM: 11a289cfe4b7219ba7e4b7474721397fc5b343e8
 
