@@ -28,6 +28,7 @@ Pod::Spec.new do |s|
 
 
   s.dependency "WSTwo_Category"
+  s.dependency "CTMediator"
   # s.user_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PLATFORM_DIR)/Developer/Library/Frameworks' }
 
 end
