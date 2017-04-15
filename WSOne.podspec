@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "WSOne"
-  s.version      = "10"
+  s.version      = "11"
   s.summary      = "WSOne"
   s.description  = <<-DESC
 			测试用的，不要在意
