@@ -21,6 +21,7 @@
 #pragma mark - life cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor blueColor];
     
     [self.view addSubview:self.myButton];
 }
