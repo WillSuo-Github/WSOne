@@ -7,7 +7,7 @@
 //
 
 #import "OneViewController.h"
-#import <CTMediator+Bussiness_Two.h>
+#import <WSTwo_Category/CTMediator+Bussiness_Two.h>
 
 @interface OneViewController ()
 
